@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
+    "node-sass": "^8.0.0",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.56.1"
+  },
+  "name": "proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss styles/index.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcreta/Proyecto-Desarrollo-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcreta/Proyecto-Desarrollo-Web/issues"
+  },
+  "homepage": "https://github.com/dcreta/Proyecto-Desarrollo-Web#readme",
+  "description": ""
+}
